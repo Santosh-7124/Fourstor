@@ -1,0 +1,10 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="arrow_top_right">
+<mask id="mask0_181_465" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+<rect id="Bounding box" width="24" height="24" transform="matrix(1 0 0 -1 0 24.4556)" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_181_465)">
+<path id="arrow_top_right_2" d="M5.5 4.95557V16.2056H16.627L12.9307 19.8863L14 20.9556L19.5 15.4556L13.9845 9.94032L12.9307 11.0093L16.627 14.7056H7V4.95557H5.5Z" fill="#008E97"/>
+</g>
+</g>
+</svg>

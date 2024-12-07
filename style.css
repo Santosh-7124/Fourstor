@@ -1214,6 +1214,252 @@ header nav a:hover {
   gap: 24px;
 }
 
+/* Services */
+
+#services-banner {
+  background: url("/Services Desktop Banner.png") no-repeat center center;
+  background-size: cover;
+}
+
+.services-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  align-self: stretch;
+}
+
+.services-card {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  scroll-margin-top: 100px;
+}
+
+.services-card-left {
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.services-card-left .heading {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.services-card-left .heading h3 {
+  color: var(--Black-Primary, #111);
+  font-family: Afacad;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.8px;
+}
+
+.services-card-left .heading p {
+  color: var(--Black-black-300, #606060);
+  font-family: Afacad;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.services-offerings {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.services-container h4 {
+  color: var(--Orange-Primary, #F45353);
+  font-family: Afacad;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.services-offerings ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.services-offerings ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+
+.services-offerings ul h5 {
+  color: var(--Black-Primary, #111);
+  font-family: Afacad;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+.services-offerings ul li section {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.services-offerings ul li section h6 {
+  color: var(--Black-Primary, #111);
+  font-family: Afacad;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+
+.services-offerings ul li p {
+  color: var(--Black-black-300, #606060);
+  font-family: Afacad;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.services-card-left-img {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.services-card-left-img img {
+  width: 74px;
+  height: 74px;
+  transform: rotate(-18.255deg);
+  flex-shrink: 0;
+}
+
+.services-card-left-img img:last-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 29.17px;
+  height: 29.17px;
+  transform: rotate(-18.255deg);
+  flex-shrink: 0;
+}
+
+.services-card-right {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-self: stretch;
+  gap: 64px;
+}
+
+.applications {
+  display: flex;
+  width: 265px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.applications ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.applications ul li {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 8px;
+}
+
+.applications ul li p {
+  color: var(--Black-black-300, #606060);
+  font-family: Afacad;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.services-card-right-img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.services-card-right-img section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.services-card-right-img section p {
+  color: var(--Grey-Primary, #7B7B7B);
+  font-family: Afacad;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.services-card-right-img-container {
+  width: 100%;
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.services-card-right-img-container img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+}
+
 /* Footer */
 
 footer {
