@@ -708,7 +708,7 @@ header nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 40px;
   border-radius: 8px;
   background: url("/Home\ Contact\ Background.png") no-repeat center center;
   background-size: cover;
@@ -1460,6 +1460,238 @@ header nav a:hover {
   object-fit: cover;
 }
 
+/* Contact */
+
+#contact-banner {
+  background: url("/Contact Desktop Banner.png") no-repeat center center;
+  background-size: cover;
+}
+
+.contact-form {
+  width: 100%;
+  display: flex;
+  padding: 80px 160px;
+  align-items: center;
+  gap: 40px;
+  background: var(--Blue-blue-50, #E6F4F5);
+}
+
+.contact-info-container {
+  width: 100%;
+  display: flex;
+  padding: 40px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--Blue-blue-100, #B0DCDF);
+  background: linear-gradient(108deg, #FFF 0%, #E6F4F5 100%);
+  backdrop-filter: blur(20px);
+}
+
+.contact-info-container h2 {
+  color: #000;
+  font-family: Afacad;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.contact-info a {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  text-decoration: none;
+}
+
+.contact-info a img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.contact-info a:hover img {
+  scale: 1.2;
+}
+
+.contact-info a section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+}
+
+.contact-info a section h3 {
+  color: var(--Black-Primary, #111);
+  font-family: Afacad;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.contact-info a section span {
+  color: var(--Black-black-300, #606060);
+  font-family: Afacad;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.contact-info a section p {
+  color: var(--Black-black-300, #606060);
+  font-family: Afacad;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.form-name-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+form section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+form section label {
+  color: var(--Black-Primary, #111);
+  font-family: Afacad;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+
+form section label span {
+  color: var(--Blue-Primary, #008E97);
+}
+
+form section input {
+  width: 100%;
+  display: flex;
+  height: 48px;
+  padding: 10px 16px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 4px;
+  border: 1px solid var(--Blue-blue-100, #B0DCDF);
+  background: none;
+  color: var(--Black-black-300, #606060);
+  font-family: Afacad;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+form section textarea {
+  resize: none;
+  width: 100%;
+  height: 128px;
+  display: flex;
+  padding: 13.5px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 4px;
+  border: 1px solid var(--Blue-blue-100, #B0DCDF);
+  background: none;
+  color: var(--Black-black-300, #606060);
+  font-family: Afacad;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+form button {
+  width: 100%;
+  display: flex;
+  height: 56px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 4px;
+  background: var(--Blue-Primary, #008E97);
+  border: none;
+  cursor: pointer;
+  color: #FFF;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Afacad;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+form button:hover {
+  background: linear-gradient(90deg, #008E97 1.59%, #015A60 75.4%);
+}
+
+.contact-social {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.contact-social a img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.contact-social a:hover img {
+  scale: 1.2;
+}
+
 /* Footer */
 
 footer {
@@ -1651,4 +1883,23 @@ footer {
 
 .footer-more-links a:hover {
   opacity: 1;
+}
+
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .mobile {
+    display: flex;
+  }
+
+  .desktop {
+    display: none;
+  }
 }
