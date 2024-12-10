@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "/Company Logo.png";
 import Name from "/Company Name.png";
+import Menu from "../assets/menu.png";
+import MenuCancel from "../assets/menu cancel.png";
 
 function Navbar() {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -33,42 +35,41 @@ function Navbar() {
       </Link>
 
       <div className="mobile-navbar-button mobile" onClick={toggleMobileNav}>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="32"
-          height="32"
-          viewBox="0 0 32 32"
-          fill="none"
+        <img
+          src={Menu}
+          alt="Fourstor Mobile navbar open"
           style={{
             display: isMobileNavOpen ? "none" : hasToggled ? "block" : "",
           }}
-        >
-          <path
-            d="M8 8H24M8 16H24M8 24H24"
-            stroke="#111111"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="18"
-          height="18"
-          viewBox="0 0 18 18"
-          fill="none"
+        />
+        <img
+          src={MenuCancel}
+          alt="Fourstor Mobile navbar close"
           style={{
             display: isMobileNavOpen ? "block" : hasToggled ? "none" : "none",
           }}
-        >
-          <path
-            d="M1 1L16.5 17M1 17L17 1"
-            stroke="#111111"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+        />
+      </div>
+      <div
+        className={`mobileNavbar mobile ${
+          isMobileNavOpen
+            ? "activeMobileNavbar"
+            : hasToggled
+            ? "nonactiveMobileNavbar"
+            : ""
+        }`}
+      >
+        <nav>
+          <Link to="/about" onClick={toggleMobileNav}>
+            About Us
+          </Link>
+          <Link to="/services" onClick={toggleMobileNav}>
+            Our Services
+          </Link>
+        </nav>
+        <Link className="blue-button" to="/contact">
+          Contact Us
+        </Link>
       </div>
     </header>
   );
