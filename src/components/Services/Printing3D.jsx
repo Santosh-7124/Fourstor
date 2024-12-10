@@ -1,7 +1,7 @@
 import React from "react";
 import Gear from "../../assets/Services/gear.png";
 import Tick from "../../assets/green tick.svg";
-import MainImg from "../../assets/Services/Services Container/3D printing.png";
+import MainImg from "../../assets/Services/Services Container/3D Printing.png";
 
 function Printing3D() {
   return (
