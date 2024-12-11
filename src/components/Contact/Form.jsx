@@ -45,7 +45,7 @@ function Form() {
           </a>
         </div>
       </div>
-      <form>
+      <form action="https://formspree.io/f/mbljezvv" method="POST">
         <div className="form-name-input">
           <section>
             <label htmlFor="first-name">
