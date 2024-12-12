@@ -16,7 +16,7 @@ function Strengths() {
       <div className="strengths-container">
         <section>
           <h3>
-            Competence in <br /> engineering and logistics
+            Competence in <br className="desktop" /> engineering and logistics
           </h3>
           <p>
             Expertise in engineering and logistics, ensuring seamless solutions
@@ -25,7 +25,7 @@ function Strengths() {
         </section>
         <section>
           <h3>
-            Access to international <br /> suppliers
+            Access to international <br className="desktop" /> suppliers
           </h3>
           <p>
             Providing seamless access to a global network of trusted suppliers
@@ -34,7 +34,8 @@ function Strengths() {
         </section>
         <section>
           <h3>
-            Expertise in system <br /> integration and prototyping
+            Expertise in system <br className="desktop" /> integration and
+            prototyping
           </h3>
           <p>
             Mastering system integration and prototyping to bring innovative
