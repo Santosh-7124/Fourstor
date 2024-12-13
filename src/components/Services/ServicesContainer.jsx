@@ -34,15 +34,19 @@ function ServicesContainer() {
         <div className="services-card" id="3d_Printing">
           <Printing3D />
         </div>
+        <div className="testimony-line mobile"></div>
         <div className="services-card" id="Renewable_Energy">
           <RenewableEnergy />
         </div>
+        <div className="testimony-line mobile"></div>
         <div className="services-card" id="Industrial_Automation">
           <IndustrialAutomation />
         </div>
+        <div className="testimony-line mobile"></div>
         <div className="services-card" id="Pneumatics">
           <Pneumatics />
         </div>
+        <div className="testimony-line mobile"></div>
         <div className="services-card" id="Mechatronics">
           <Mechatronics />
         </div>

@@ -2701,6 +2701,180 @@ footer {
     gap: 16px;
   }
 
+  /* Services */
+
+  #services-banner {
+    background: url("/Services Mobile Banner.png") no-repeat center center;
+    background-size: cover;
+  }
+
+  .services-container {
+    gap: 32px;
+  }
+
+  .services-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+  }
+
+  .services-card-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+  }
+
+  .services-card-left .heading {
+    gap: 4px;
+  }
+
+  .services-card-left .heading h3 {
+    color: var(--Black-Primary, #111);
+    font-family: Afacad;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.4px;
+  }
+
+  .services-card-left .heading p {
+    color: var(--Black-black-300, #606060);
+    font-family: Afacad;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .services-offerings {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+  }
+
+  .services-container h4 {
+    color: var(--Orange-Primary, #F45353);
+    font-family: Afacad;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.36px;
+  }
+
+  .services-offerings ul h5 {
+    color: var(--Black-Primary, #111);
+    font-family: Afacad;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.32px;
+  }
+
+  .services-offerings ul li section img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+
+  .services-offerings ul li section h6 {
+    color: var(--Black-Primary, #111);
+    font-family: Afacad;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.32px;
+  }
+
+  .services-offerings ul li p {
+    color: var(--Black-black-300, #606060);
+    font-family: Afacad;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .services-card-right {
+    width: 100%;
+    gap: 32px;
+    flex-direction: column-reverse;
+  }
+
+  .services-card-right-img {
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .services-card-right-img section {
+    width: 90%;
+    align-self: flex-end;
+  }
+
+  .services-card-right-img section p {
+    color: var(--Grey-Primary, #7B7B7B);
+    font-family: Afacad;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.24px;
+  }
+
+  .services-card-right-img-container {
+    height: 171px;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .services-card-right-img-container img {
+    width: 90%;
+    height: 171px;
+    border-radius: 8px;
+  }
+
+  .applications ul li img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+
+  .services-card {
+    position: relative;
+  }
+
+  .services-card-left-img {
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    width: 38px;
+    height: 42.473px;
+  }
+
+  .services-card-left-img img {
+    width: 30.089px;
+    height: 30.089px;
+  }
+
+  .services-card-left-img img:last-child {
+    width: 11.861px;
+    height: 11.861px;
+  }
+
+
   /* Footer */
 
   footer {

@@ -67,7 +67,7 @@ function Navbar() {
             Our Services
           </Link>
         </nav>
-        <Link className="blue-button" to="/contact">
+        <Link className="blue-button"  onClick={toggleMobileNav} to="/contact">
           Contact Us
         </Link>
       </div>
