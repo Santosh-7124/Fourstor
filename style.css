@@ -1483,6 +1483,14 @@ header nav a:hover {
   background: var(--Blue-blue-50, #E6F4F5);
 }
 
+.contact-info-div {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+}
+
 .contact-info-container {
   width: 100%;
   display: flex;
@@ -2872,6 +2880,115 @@ footer {
   .services-card-left-img img:last-child {
     width: 11.861px;
     height: 11.861px;
+  }
+
+  /* Contact */
+
+
+  #contact-banner {
+    background: url("/Contact Mobile Banner.png") no-repeat center center;
+    background-size: cover;
+  }
+
+  .contact-form {
+    padding: 0;
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  form {
+    display: flex;
+    padding: 40px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .form-name-input {
+    flex-direction: column;
+  }
+
+  form section label {
+    color: var(--Black-Primary, #111);
+    font-family: Afacad;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  form section input {
+    height: auto;
+    color: var(--Black-black-300, #606060);
+    font-family: Afacad;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  form section textarea {
+    color: var(--Black-black-300, #606060);
+    font-family: Afacad;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+
+  .contact-info-div {
+    display: flex;
+    padding: 40px 20px;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .contact-info-container {
+    display: flex;
+    padding: 40px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+
+  .contact-info-container h2 {
+    color: #000;
+    font-family: Afacad;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.64px;
+  }
+
+  .contact-info a img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .contact-info a section span {
+    color: var(--Black-black-300, #606060);
+    font-family: Afacad;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .contact-info a section p {
+    color: var(--Black-black-300, #606060);
+    font-family: Afacad;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
   }
 
 

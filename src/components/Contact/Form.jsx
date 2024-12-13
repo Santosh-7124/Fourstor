@@ -6,7 +6,8 @@ import CallIcon from "../../assets/Contact/Call Icon.png";
 function Form() {
   return (
     <div className="contact-form">
-      <div className="contact-info-container">
+      <div className="contact-info-div">
+        <div className="contact-info-container">
         <h2>Reach Us Here</h2>
         <div className="contact-info">
           <a href="#" target="_blank">
@@ -44,6 +45,7 @@ function Form() {
             </section>
           </a>
         </div>
+      </div>
       </div>
       <form action="https://formspree.io/f/mbljezvv" method="POST">
         <div className="form-name-input">
