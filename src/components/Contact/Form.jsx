@@ -41,7 +41,7 @@ function Form() {
                 <h3>Call us</h3>
                 <span>Mon - Fri 10 AM - 6PM</span>
               </div>
-              <p>7353301096 / 78920476177</p>
+              <p>7353301096 / 7892046177</p>
             </section>
           </a>
         </div>
