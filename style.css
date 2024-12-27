@@ -768,6 +768,7 @@ header nav a:hover {
   border: 1px solid var(--Grey-grey-50, #F2F2F2);
   background: linear-gradient(108deg, #FFF 0%, #E6F4F5 100%);
   backdrop-filter: blur(20px);
+  align-self: stretch;
 }
 
 .testimony-card section {
