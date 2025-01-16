@@ -8,46 +8,46 @@ function Form() {
     <div className="contact-form">
       <div className="contact-info-div">
         <div className="contact-info-container">
-        <h2>Reach Us Here</h2>
-        <div className="contact-info">
-          <a href="#" target="_blank">
-            <img src={MailIcon} />
-            <section>
-              <div>
-                <h3>Email Us</h3>
-                <span>Your queries, our priority</span>
-              </div>
-              <p>fourstor@outlook.com</p>
-            </section>
-          </a>
-          <a href="#" target="_blank">
-            <img src={LocationIcon} />
-            <section>
-              <div>
-                <h3>Visit Us</h3>
-                <span>Step in for a warm welcome</span>
-              </div>
-              <p>
-                Fourstor Solutions Pvt. Ltd. No. 2, 1st Floor, Jayaram
-                BuildingOpp. <br /> NICEFAIR, Ramamurthy Nagar - Bangalore -
-                560016
-              </p>
-            </section>
-          </a>
-          <a href="#" target="_blank">
-            <img src={CallIcon} />
-            <section>
-              <div>
-                <h3>Call us</h3>
-                <span>Mon - Fri 10 AM - 6PM</span>
-              </div>
-              <p>7353301096 / 7892046177</p>
-            </section>
-          </a>
+          <h2>Reach Us Here</h2>
+          <div className="contact-info">
+            <a href="#" target="_blank">
+              <img src={MailIcon} />
+              <section>
+                <div>
+                  <h3>Email Us</h3>
+                  <span>Your queries, our priority</span>
+                </div>
+                <p>fourstor@outlook.com</p>
+              </section>
+            </a>
+            <a href="#" target="_blank">
+              <img src={LocationIcon} />
+              <section>
+                <div>
+                  <h3>Visit Us</h3>
+                  <span>Step in for a warm welcome</span>
+                </div>
+                <p>
+                  Fourstor Solutions Pvt. Ltd. No. 2, 1st Floor, Jayaram
+                  BuildingOpp. <br /> NICEFAIR, Ramamurthy Nagar - Bangalore -
+                  560016
+                </p>
+              </section>
+            </a>
+            <a href="#" target="_blank">
+              <img src={CallIcon} />
+              <section>
+                <div>
+                  <h3>Call us</h3>
+                  <span>Mon - Fri 10 AM - 6PM</span>
+                </div>
+                <p>7353301096 / 7892046177</p>
+              </section>
+            </a>
+          </div>
         </div>
       </div>
-      </div>
-      <form action="https://formspree.io/f/mgvvopbl" method="POST">
+      <form action="https://formspree.io/f/xkggeajk" method="POST">
         <div className="form-name-input">
           <section>
             <label htmlFor="first-name">
