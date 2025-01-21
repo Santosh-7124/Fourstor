@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import Banner from "./About/Banner";
 import FOURsTWOr from "./About/FOURsTWOr";
 import Vision from "./About/Vision";
@@ -12,6 +13,15 @@ import Text from "./Home/Text";
 function About() {
   return (
     <>
+      <Helmet>
+        <title>
+          About Fourstor Solutions | Leaders in Industrial Innovation
+        </title>
+        <meta
+          name="description"
+          content="Discover Fourstor Solutions: Experts in 3D Printing, Renewable Energy, Pneumatics, and Automation with a vision of innovation and excellence."
+        />
+      </Helmet>
       <Banner />
       <FOURsTWOr />
       <Vision />

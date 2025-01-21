@@ -123,6 +123,7 @@ header nav a:hover {
   font-weight: 700;
   line-height: normal;
   letter-spacing: -3.36px;
+  text-align: center;
 }
 
 .home-banner-container p {
