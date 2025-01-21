@@ -6,12 +6,11 @@
 }
 
 @font-face {
-  font-family: 'Alexandria';
-  src: url('/Alexandria-Regular.ttf') format('truetype');
+  font-family: "Alexandria";
+  src: url("/Alexandria-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
-
 
 header {
   width: 100%;
@@ -170,7 +169,7 @@ header nav a:hover {
   flex-direction: column;
   align-items: flex-start;
   gap: 64px;
-  background: var(--Blue-blue-50, #E6F4F5);
+  background: var(--Blue-blue-50, #e6f4f5);
 }
 
 .home-section-heading {
@@ -193,7 +192,7 @@ header nav a:hover {
 }
 
 .home-section-heading h2 span {
-  color: var(--Orange-Primary, #F45353);
+  color: var(--Orange-Primary, #f45353);
 }
 
 .home-section-heading p {
@@ -224,8 +223,8 @@ header nav a:hover {
   align-items: flex-start;
   gap: 16px;
   border-radius: 8px;
-  border: 1px solid var(--Blue-blue-50, #E6F4F5);
-  background: linear-gradient(108deg, #FFF 0%, #E6F4F5 100%);
+  border: 1px solid var(--Blue-blue-50, #e6f4f5);
+  background: linear-gradient(108deg, #fff 0%, #e6f4f5 100%);
   backdrop-filter: blur(20px);
   align-self: stretch;
 }
@@ -239,7 +238,7 @@ header nav a:hover {
 .home-advantage-line {
   width: 100%;
   height: 1px;
-  background: #E6F4F5;
+  background: #e6f4f5;
 }
 
 .home-advantage-set section {
@@ -329,8 +328,8 @@ header nav a:hover {
   align-items: center;
   gap: 8px;
   border-radius: 4px;
-  border: 1px solid var(--Blue-blue-200, #8ACBCF);
-  background: var(--Blue-blue-50, #E6F4F5);
+  border: 1px solid var(--Blue-blue-200, #8acbcf);
+  background: var(--Blue-blue-50, #e6f4f5);
   color: var(--Black-Primary, #111);
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Afacad;
@@ -341,8 +340,8 @@ header nav a:hover {
 }
 
 .light-blue-button:hover {
-  border: 1px solid var(--Blue-blue-300, #54B3B9);
-  background: var(--Blue-blue-100, #B0DCDF);
+  border: 1px solid var(--Blue-blue-300, #54b3b9);
+  background: var(--Blue-blue-100, #b0dcdf);
 }
 
 .home-gallery-container {
@@ -358,7 +357,6 @@ header nav a:hover {
   gap: 48px;
   padding: 0px 80px;
 }
-
 
 .home-gallery-card {
   width: 100%;
@@ -380,12 +378,12 @@ header nav a:hover {
   width: 90%;
   height: 360px;
   border-radius: 8px;
-  background: var(--Orange-Primary, #F45353);
+  background: var(--Orange-Primary, #f45353);
   padding: 16px 0px 0px 32px;
 }
 
 .home-gallery-card-left section h3 {
-  color: var(--White, #FFF);
+  color: var(--White, #fff);
   font-family: Afacad;
   font-size: 40px;
   font-style: normal;
@@ -402,7 +400,7 @@ header nav a:hover {
   height: 349px;
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.30);
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.3);
 }
 
 .home-gallery-card-right {
@@ -458,7 +456,7 @@ header nav a:hover {
   gap: 10px;
   border: none;
   border-radius: 100px;
-  background: var(--Grey-grey-100, #D6D6D6);
+  background: var(--Grey-grey-100, #d6d6d6);
 }
 
 .home-features {
@@ -493,7 +491,6 @@ header nav a:hover {
   align-items: flex-start;
   gap: 32px;
 }
-
 
 .home-features-cards {
   width: 100%;
@@ -579,7 +576,7 @@ header nav a:hover {
   line-height: normal;
   letter-spacing: 17.1px;
   opacity: 0.3;
-  background: linear-gradient(180deg, #008E97 0%, #FFF 100%);
+  background: linear-gradient(180deg, #008e97 0%, #fff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -603,7 +600,7 @@ header nav a:hover {
   gap: 16px;
   align-self: stretch;
   border-radius: 4px;
-  background: linear-gradient(108deg, #FFF 0%, #E0FDFF 100%);
+  background: linear-gradient(108deg, #fff 0%, #e0fdff 100%);
   backdrop-filter: blur(20px);
 }
 
@@ -618,7 +615,7 @@ header nav a:hover {
 }
 
 .home-competition ul li h4 {
-  color: var(--Orange-Primary, #F45353);
+  color: var(--Orange-Primary, #f45353);
   font-family: Afacad;
   font-size: 18px;
   font-style: normal;
@@ -640,7 +637,7 @@ header nav a:hover {
 .home-competition ul span {
   width: 100%;
   height: 1px;
-  background: rgba(214, 214, 214, 0.50);
+  background: rgba(214, 214, 214, 0.5);
 }
 
 .home-features-right-down-container {
@@ -672,15 +669,15 @@ header nav a:hover {
 }
 
 .home-features-dot:first-child {
-  background: #862E2E;
+  background: #862e2e;
 }
 
 .home-features-dot:last-child {
-  background: #AD3B3B;
+  background: #ad3b3b;
 }
 
 .home-features-dot:nth-child(2) {
-  background: #F45353;
+  background: #f45353;
 }
 
 .home-features-right-down p {
@@ -690,8 +687,8 @@ header nav a:hover {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  background: var(--Blue-Primary, #008E97);
-  color: var(--Blue-blue-50, #E6F4F5);
+  background: var(--Blue-Primary, #008e97);
+  color: var(--Blue-blue-50, #e6f4f5);
   font-family: Afacad;
   font-size: 36px;
   font-style: normal;
@@ -707,12 +704,12 @@ header nav a:hover {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  background: var(--Blue-blue-50, #E6F4F5);
+  background: var(--Blue-blue-50, #e6f4f5);
 }
 
 .home-contact-container {
   width: 100%;
-  padding: 106px 200px;
+  padding: 106px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -720,6 +717,10 @@ header nav a:hover {
   border-radius: 8px;
   background: url("/Home\ Contact\ Background.png") no-repeat center center;
   background-size: cover;
+}
+
+.contact-page .home-contact-container {
+  padding: 106px 200px;
 }
 
 .home-contact-container section {
@@ -730,7 +731,7 @@ header nav a:hover {
 }
 
 .home-contact-container section h2 {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Afacad;
   font-size: 56px;
@@ -741,7 +742,7 @@ header nav a:hover {
 }
 
 .home-contact-container section p {
-  color: var(--Blue-blue-50, #E6F4F5);
+  color: var(--Blue-blue-50, #e6f4f5);
   text-align: center;
   font-family: Afacad;
   font-size: 16px;
@@ -766,8 +767,8 @@ header nav a:hover {
   align-items: flex-start;
   gap: 16px;
   border-radius: 8px;
-  border: 1px solid var(--Grey-grey-50, #F2F2F2);
-  background: linear-gradient(108deg, #FFF 0%, #E6F4F5 100%);
+  border: 1px solid var(--Grey-grey-50, #f2f2f2);
+  background: linear-gradient(108deg, #fff 0%, #e6f4f5 100%);
   backdrop-filter: blur(20px);
   align-self: stretch;
 }
@@ -794,7 +795,7 @@ header nav a:hover {
 .testimony-line {
   width: 100%;
   height: 1px;
-  background: #E7E7E7;
+  background: #e7e7e7;
 }
 
 .testimony-info {
@@ -875,10 +876,11 @@ header nav a:hover {
   font-weight: 700;
   line-height: normal;
   letter-spacing: -3.36px;
-  background: linear-gradient(110deg, #008E97 0%, #004E53 100%);
+  background: linear-gradient(110deg, #008e97 0%, #004e53 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 
 .secondary-banner p {
@@ -901,7 +903,7 @@ header nav a:hover {
   justify-content: center;
   gap: 100px;
   padding: 80px 160px;
-  background: var(--Blue-blue-50, #E6F4F5);
+  background: var(--Blue-blue-50, #e6f4f5);
 }
 
 .about-4s2r section {
@@ -926,7 +928,7 @@ header nav a:hover {
 }
 
 .text-4s2r p {
-  color: #ABABAB;
+  color: #ababab;
   font-family: Alexandria;
   font-size: 120px;
   font-style: normal;
@@ -945,7 +947,8 @@ header nav a:hover {
 }
 
 .colour-text-4s2r {
-  background: url("/4s frame 1.png"), url("/4s frame 2.png") no-repeat center center;
+  background: url("/4s frame 1.png"),
+    url("/4s frame 2.png") no-repeat center center;
   background-size: cover;
   background-position: center calc(50% + 10px);
 }
@@ -971,9 +974,9 @@ header nav a:hover {
 
 .colour-text-4s2r sub {
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--Orange-Primary, #F45353);
+  -webkit-text-stroke-color: var(--Orange-Primary, #f45353);
   color: transparent;
-  font-family: 'Afacad', sans-serif;
+  font-family: "Afacad", sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 600;
@@ -982,9 +985,8 @@ header nav a:hover {
   height: 64px;
 }
 
-
 .colour-text-4s2r span {
-  color: var(--Orange-Primary, #F45353);
+  color: var(--Orange-Primary, #f45353);
   font-family: Afacad;
   font-size: 72px;
   font-style: normal;
@@ -1047,14 +1049,14 @@ header nav a:hover {
   align-items: center;
   gap: 32px;
   border-radius: 8px;
-  background: linear-gradient(108deg, #FFF 0%, #E0FDFF 100%);
+  background: linear-gradient(108deg, #fff 0%, #e0fdff 100%);
   backdrop-filter: blur(20px);
 }
 
 .red-line {
   width: 150px;
   height: 1.5px;
-  background: #F45353;
+  background: #f45353;
 }
 
 .about-vision-container section {
@@ -1093,7 +1095,7 @@ header nav a:hover {
   align-items: flex-start;
   gap: 32px;
   border-radius: 8px;
-  background: linear-gradient(108deg, #FFF 0%, #E6F4F5 100%);
+  background: linear-gradient(108deg, #fff 0%, #e6f4f5 100%);
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.08);
   align-self: stretch;
 }
@@ -1215,7 +1217,6 @@ header nav a:hover {
   letter-spacing: -0.32px;
 }
 
-
 .industries-container {
   width: 100%;
   display: flex;
@@ -1292,7 +1293,7 @@ header nav a:hover {
 }
 
 .services-container h4 {
-  color: var(--Orange-Primary, #F45353);
+  color: var(--Orange-Primary, #f45353);
   font-family: Afacad;
   font-size: 24px;
   font-style: normal;
@@ -1317,7 +1318,6 @@ header nav a:hover {
   gap: 8px;
   align-self: stretch;
 }
-
 
 .services-offerings ul h5 {
   color: var(--Black-Primary, #111);
@@ -1345,7 +1345,6 @@ header nav a:hover {
   line-height: normal;
   letter-spacing: -0.32px;
 }
-
 
 .services-offerings ul li p {
   color: var(--Black-black-300, #606060);
@@ -1444,7 +1443,7 @@ header nav a:hover {
 }
 
 .services-card-right-img section p {
-  color: var(--Grey-Primary, #7B7B7B);
+  color: var(--Grey-Primary, #7b7b7b);
   font-family: Afacad;
   font-size: 16px;
   font-style: normal;
@@ -1482,7 +1481,7 @@ header nav a:hover {
   padding: 80px 160px;
   align-items: center;
   gap: 40px;
-  background: var(--Blue-blue-50, #E6F4F5);
+  background: var(--Blue-blue-50, #e6f4f5);
 }
 
 .contact-info-div {
@@ -1502,8 +1501,8 @@ header nav a:hover {
   gap: 40px;
   align-self: stretch;
   border-radius: 8px;
-  border: 1px solid var(--Blue-blue-100, #B0DCDF);
-  background: linear-gradient(108deg, #FFF 0%, #E6F4F5 100%);
+  border: 1px solid var(--Blue-blue-100, #b0dcdf);
+  background: linear-gradient(108deg, #fff 0%, #e6f4f5 100%);
   backdrop-filter: blur(20px);
 }
 
@@ -1620,9 +1619,8 @@ form section label {
   letter-spacing: -0.32px;
 }
 
-
 form section label span {
-  color: var(--Blue-Primary, #008E97);
+  color: var(--Blue-Primary, #008e97);
 }
 
 form section input {
@@ -1634,7 +1632,7 @@ form section input {
   gap: 10px;
   align-self: stretch;
   border-radius: 4px;
-  border: 1px solid var(--Blue-blue-100, #B0DCDF);
+  border: 1px solid var(--Blue-blue-100, #b0dcdf);
   background: none;
   color: var(--Black-black-300, #606060);
   font-family: Afacad;
@@ -1655,7 +1653,7 @@ form section textarea {
   gap: 10px;
   align-self: stretch;
   border-radius: 4px;
-  border: 1px solid var(--Blue-blue-100, #B0DCDF);
+  border: 1px solid var(--Blue-blue-100, #b0dcdf);
   background: none;
   color: var(--Black-black-300, #606060);
   font-family: Afacad;
@@ -1676,10 +1674,10 @@ form button {
   gap: 8px;
   flex: 1 0 0;
   border-radius: 4px;
-  background: var(--Blue-Primary, #008E97);
+  background: var(--Blue-Primary, #008e97);
   border: none;
   cursor: pointer;
-  color: #FFF;
+  color: #fff;
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Afacad;
   font-size: 18px;
@@ -1689,7 +1687,7 @@ form button {
 }
 
 form button:hover {
-  background: linear-gradient(90deg, #008E97 1.59%, #015A60 75.4%);
+  background: linear-gradient(90deg, #008e97 1.59%, #015a60 75.4%);
 }
 
 .contact-social {
@@ -1902,7 +1900,6 @@ footer {
   opacity: 1;
 }
 
-
 .mobile {
   display: none;
 }
@@ -1927,7 +1924,7 @@ footer {
     padding: 10px 20px;
     justify-content: space-between;
     align-items: center;
-    background: #FFF;
+    background: #fff;
     box-shadow: 2px 1px 6px 0px rgba(0, 0, 0, 0.08);
   }
 
@@ -1945,12 +1942,10 @@ footer {
     flex-shrink: 0;
   }
 
-
-
   .mobileNavbar {
     width: 100%;
     height: calc(100svh - 56px);
-    background: var(--White-BG, #FFF);
+    background: var(--White-BG, #fff);
     position: fixed;
     top: 56px;
     right: 0;
@@ -2039,7 +2034,7 @@ footer {
   }
 
   .home-banner-container h1 {
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-family: Afacad;
     font-size: 40px;
@@ -2052,7 +2047,7 @@ footer {
   .home-banner-container p {
     padding: 0px 20px;
     width: 100%;
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-family: Afacad;
     font-size: 16px;
@@ -2069,7 +2064,7 @@ footer {
     align-items: center;
     gap: 8px;
     border-radius: 4px;
-    background: var(--Blue-blue-50, #E6F4F5);
+    background: var(--Blue-blue-50, #e6f4f5);
   }
 
   .home-section {
@@ -2118,8 +2113,8 @@ footer {
     gap: 16px;
     align-self: stretch;
     border-radius: 8px;
-    border: 1px solid var(--Blue-blue-50, #E6F4F5);
-    background: linear-gradient(108deg, #FFF 0%, #E6F4F5 100%);
+    border: 1px solid var(--Blue-blue-50, #e6f4f5);
+    background: linear-gradient(108deg, #fff 0%, #e6f4f5 100%);
     backdrop-filter: blur(20px);
   }
 
@@ -2159,7 +2154,6 @@ footer {
   .home-about-imgs {
     gap: 16px;
   }
-
 
   .home-about-imgs img:nth-child(1) {
     height: 219px;
@@ -2205,7 +2199,7 @@ footer {
   }
 
   .home-gallery-card-left section h3 {
-    color: var(--White, #FFF);
+    color: var(--White, #fff);
     font-family: Afacad;
     font-size: 24px;
     font-style: normal;
@@ -2226,7 +2220,7 @@ footer {
 
   .home-gallery-controls button {
     width: 32px;
-    height: 32px
+    height: 32px;
   }
 
   .home-gallery-controls button img {
@@ -2315,7 +2309,7 @@ footer {
     line-height: normal;
     letter-spacing: 11.4px;
     opacity: 0.3;
-    background: linear-gradient(180deg, #00676E 0%, #FFF 100%);
+    background: linear-gradient(180deg, #00676e 0%, #fff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -2334,7 +2328,7 @@ footer {
   }
 
   .home-competition ul li h4 {
-    color: var(--Orange-Primary, #F45353);
+    color: var(--Orange-Primary, #f45353);
     font-family: Afacad;
     font-size: 16px;
     font-style: normal;
@@ -2370,7 +2364,7 @@ footer {
   .home-features-right-down p {
     width: 90%;
     padding: 8px;
-    color: var(--White, #FFF);
+    color: var(--White, #fff);
     font-family: Afacad;
     font-size: 20px;
     font-style: normal;
@@ -2401,7 +2395,7 @@ footer {
   }
 
   .home-contact-container section h2 {
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-family: Afacad;
     font-size: 40px;
@@ -2412,7 +2406,7 @@ footer {
   }
 
   .home-contact-container section p {
-    color: var(--White, #FFF);
+    color: var(--White, #fff);
     text-align: center;
     font-family: Afacad;
     font-size: 14px;
@@ -2434,7 +2428,6 @@ footer {
   .testimony::-webkit-scrollbar {
     display: none;
   }
-
 
   .testimony-card {
     display: flex;
@@ -2541,7 +2534,7 @@ footer {
   }
 
   .text-4s2r p {
-    color: #ABABAB;
+    color: #ababab;
     font-family: Alexandria;
     font-size: 60px;
     font-style: normal;
@@ -2551,7 +2544,8 @@ footer {
   }
 
   .colour-text-4s2r {
-    background: url("/4s frame 1 mobile.png"), url("/4s frame 2 mobile.png") no-repeat center center;
+    background: url("/4s frame 1 mobile.png"),
+      url("/4s frame 2 mobile.png") no-repeat center center;
     background-size: cover;
     background-position: center calc(50% - 12px);
   }
@@ -2773,7 +2767,7 @@ footer {
   }
 
   .services-container h4 {
-    color: var(--Orange-Primary, #F45353);
+    color: var(--Orange-Primary, #f45353);
     font-family: Afacad;
     font-size: 18px;
     font-style: normal;
@@ -2835,7 +2829,7 @@ footer {
   }
 
   .services-card-right-img section p {
-    color: var(--Grey-Primary, #7B7B7B);
+    color: var(--Grey-Primary, #7b7b7b);
     font-family: Afacad;
     font-size: 12px;
     font-style: normal;
@@ -2885,7 +2879,6 @@ footer {
   }
 
   /* Contact */
-
 
   #contact-banner {
     background: url("/Contact Mobile Banner.png") no-repeat center center;
@@ -2941,7 +2934,6 @@ footer {
     letter-spacing: -0.28px;
   }
 
-
   .contact-info-div {
     display: flex;
     padding: 40px 20px;
@@ -2956,7 +2948,6 @@ footer {
     align-items: flex-start;
     gap: 40px;
   }
-
 
   .contact-info-container h2 {
     color: #000;
@@ -2993,7 +2984,6 @@ footer {
     letter-spacing: -0.28px;
   }
 
-
   /* Footer */
 
   footer {
@@ -3011,7 +3001,7 @@ footer {
     align-items: center;
     gap: 24px;
     border-radius: 8px;
-    background: linear-gradient(110deg, #008E97 0%, #004E53 100%);
+    background: linear-gradient(110deg, #008e97 0%, #004e53 100%);
   }
 
   .footer-container-up {
@@ -3030,7 +3020,7 @@ footer {
   }
 
   .footer-container-up-left p {
-    color: var(--White, #FFF);
+    color: var(--White, #fff);
     font-family: Afacad;
     font-size: 12px;
     font-style: normal;
@@ -3039,7 +3029,7 @@ footer {
   }
 
   .footer-logo-container span {
-    color: #FFF;
+    color: #fff;
     font-family: Afacad;
     font-size: 14px;
     font-style: normal;
@@ -3079,7 +3069,7 @@ footer {
     align-items: center;
     gap: 12px;
     align-self: stretch;
-    color: var(--White, #FFF);
+    color: var(--White, #fff);
     text-align: right;
     font-family: Afacad;
     font-size: 14px;
@@ -3089,7 +3079,7 @@ footer {
   }
 
   .footer-more-links a {
-    color: var(--White, #FFF);
+    color: var(--White, #fff);
     text-align: right;
     font-family: Afacad;
     font-size: 14px;
@@ -3115,5 +3105,4 @@ footer {
     order: 3;
     text-align: center;
   }
-
 }

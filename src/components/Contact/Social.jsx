@@ -5,7 +5,7 @@ import LinkedinIcon from "../../assets/Footer/Linkedin Icon.png";
 
 function Social() {
   return (
-    <div className="home-contact">
+    <div className="home-contact contact-page">
       <div className="home-contact-container">
         <section>
           <h2>Stay updated with our latest solutions and projects!</h2>

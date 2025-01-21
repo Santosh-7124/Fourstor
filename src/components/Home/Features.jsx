@@ -9,7 +9,7 @@ function Features() {
     <div className="home-section">
       <div className="home-section-heading">
         <h2>
-          Why Choose <span>Fourstor? </span>
+          Why Fourstor Solutions is a <span> Trusted Global Partner </span>
         </h2>
         <p>
           Delivering tailored industrial solutions with innovation, expertise,

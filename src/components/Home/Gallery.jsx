@@ -76,7 +76,8 @@ function Gallery() {
     <div className="home-section home-gallery-container">
       <div className="home-section-heading">
         <h2>
-          What <span> We Offer</span>
+          Industry Expertise in
+          <span> Mechatronics and Pneumatics Solutions</span>
         </h2>
         <p>
           Explore our wide range of industrial solutions designed for efficiency
